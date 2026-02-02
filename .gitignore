@@ -1,0 +1,40 @@
+# ===== General =====
+.DS_Store
+Thumbs.db
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+env/
+venv/
+.venv/
+
+# ===== Flask =====
+instance/
+*.log
+
+# ===== Flutter =====
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+
+# ===== Android =====
+android/.gradle/
+android/local.properties
+
+# ===== iOS =====
+ios/Pods/
+ios/.symlinks/
+
+# ===== macOS =====
+macos/Flutter/ephemeral/
+
+# ===== Windows =====
+windows/flutter/ephemeral/
+
+# ===== Linux =====
+linux/flutter/ephemeral/
